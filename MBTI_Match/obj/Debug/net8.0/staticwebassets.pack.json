@@ -1,0 +1,341 @@
+{
+  "Files": [
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MBTI_Match.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MBTI_Match.bundle.scp.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\analyst.jpg",
+      "PackagePath": "staticwebassets\\images\\analyst.jpg"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\diplomat.jpg",
+      "PackagePath": "staticwebassets\\images\\diplomat.jpg"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\explorer.jpg",
+      "PackagePath": "staticwebassets\\images\\explorer.jpg"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\mbti1.png",
+      "PackagePath": "staticwebassets\\images\\mbti1.png"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\mbti10.png",
+      "PackagePath": "staticwebassets\\images\\mbti10.png"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\mbti11.png",
+      "PackagePath": "staticwebassets\\images\\mbti11.png"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\mbti12.png",
+      "PackagePath": "staticwebassets\\images\\mbti12.png"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\mbti13.png",
+      "PackagePath": "staticwebassets\\images\\mbti13.png"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\mbti14.png",
+      "PackagePath": "staticwebassets\\images\\mbti14.png"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\mbti15.png",
+      "PackagePath": "staticwebassets\\images\\mbti15.png"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\mbti2.png",
+      "PackagePath": "staticwebassets\\images\\mbti2.png"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\mbti3.png",
+      "PackagePath": "staticwebassets\\images\\mbti3.png"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\mbti4.png",
+      "PackagePath": "staticwebassets\\images\\mbti4.png"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\mbti5.png",
+      "PackagePath": "staticwebassets\\images\\mbti5.png"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\mbti6.png",
+      "PackagePath": "staticwebassets\\images\\mbti6.png"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\mbti7.png",
+      "PackagePath": "staticwebassets\\images\\mbti7.png"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\mbti8.png",
+      "PackagePath": "staticwebassets\\images\\mbti8.png"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\mbti9.png",
+      "PackagePath": "staticwebassets\\images\\mbti9.png"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\images\\sentinel.jpg",
+      "PackagePath": "staticwebassets\\images\\sentinel.jpg"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "Q:\\source\\MBTI_Match\\MBTI_Match\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MBTI_Match.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MBTI_Match.props",
+      "PackagePath": "build\\MBTI_Match.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MBTI_Match.props",
+      "PackagePath": "buildMultiTargeting\\MBTI_Match.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MBTI_Match.props",
+      "PackagePath": "buildTransitive\\MBTI_Match.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

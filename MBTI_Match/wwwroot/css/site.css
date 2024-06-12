@@ -1,0 +1,80 @@
+html {
+  font-size: 14px;
+  
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+       
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+  
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+   
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    
+    text-align: center;
+    background-color: #FFB6C1;
+    color: white;
+    font-size: 24px; /* Reduced font size */
+    width: 100%;
+    box-shadow: 0px 4px 2px -2px gray;
+}
+
+.navbar {
+    display: flex;
+    top: 0;
+    left: 0;
+    
+    position: absolute;
+}
+
+    .navbar a {
+        color: white;
+        padding: 10px 15px; /* Reduced padding */
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px; /* Reduced font size */
+    }
+
+        .navbar a:hover {
+            background-color: #FFB6C1;
+        }
+
+.container {
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+}
+
+
+

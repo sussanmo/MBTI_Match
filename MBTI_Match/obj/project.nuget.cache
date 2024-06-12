@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2wuz8p2ZiCA=",
+  "success": true,
+  "projectFilePath": "Q:\\source\\MBTI_Match\\MBTI_Match\\MBTI_Match.csproj",
+  "expectedPackageFiles": [
+    "Q:\\.tools\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\microsoft.visualstudio.azure.containers.tools.targets.1.20.1.nupkg.sha512"
+  ],
+  "logs": []
+}

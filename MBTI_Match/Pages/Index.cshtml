@@ -1,0 +1,246 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<style>
+    .header {
+        width: 100vw;
+        padding: 20px; /* Adjusted padding for better visual spacing */
+        overflow-x: hidden;
+        text-align: center;
+        background-color: #FFB6C1;
+        color: white;
+        font-size: 20px;
+        width: 100%;
+        top: 5%;
+        left:0; 
+        box-shadow: 0px 4px 2px -2px gray;
+        position: absolute;
+       
+        font-family: Arial, sans-serif;
+       
+    }
+    .content-container {
+        
+        padding-top: 8%;
+        width: 100%;
+        top: 5%;
+        left: 0;
+        
+       
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin: 0;
+    }
+
+    
+
+    .MBTI-intro img {
+        display: inline-block;
+        width: 250ppx;
+        height: 250px;
+        background-color: #f1f1f1;
+           
+           
+        }
+        .content-container h1 {
+            color: #FFB6C1;
+        }
+
+        .content-container h2 {
+            color: #FF69B4;
+        }
+
+        .content-container select,
+        .content-container input,
+        .content-container button {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1em;
+        }
+
+        .content-container button {
+            background-color: #FFB6C1;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+            .content-container button:hover {
+                background-color: #FF99AA;
+            }
+
+        .content-container .result {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #FF69B4;
+        }
+
+        .content-container .link {
+            margin-top: 20px;
+            color: #FF69B4;
+            text-decoration: none;
+        }
+
+            .content-container .link:hover {
+                text-decoration: underline;
+            }
+</style>
+<div class="header"> 
+    <h1 class="display-4">MBTI MatchMaker</h1>
+    <p>Discover the ideal personality match for your next plans<p>
+</div>
+<div class="content-container">
+    <div class="MBTI-intro">
+        <h2>What is the MBTI?</h2>
+        <p>The Myers-Briggs Type Indicator (MBTI) is a widely used personality assessment tool. It categorizes individuals into 16 personality types based on their preferences in four key areas: extraversion/introversion, sensing/intuition, thinking/feeling, and judging/perceiving.</p>
+        <div id="mbti-images">
+            <img src="@Url.Content("~/images/analyst.jpg")" alt="Image 1" >
+            <img src="@Url.Content("~/images/diplomat.jpg")" alt="Image 2" >
+            <img src="@Url.Content("~/images/explorer.jpg")" alt="Image 3" >
+            <img src="@Url.Content("~/images/sentinel.jpg")" alt="Image 4">
+        </div>
+
+
+    </div>
+   
+    <form id="matchForm">
+        <label for="mbti">Select your MBTI:</label>
+        <select id="mbti" name="mbti">
+            <option value="INFJ">INFJ</option>
+            <option value="INFP">INFP</option>
+            <option value="ENFJ">ENFJ</option>
+            <option value="ENTP">ENTP</option>
+            <option value="INTJ">INTJ</option>
+            <option value="ENTJ">ENTJ</option>
+            <option value="ISFP">ISFP</option>
+            <option value="ESFP">ESFP</option>
+            <option value="ISTJ">ISTJ</option>
+            <option value="ISFJ">ISFJ</option>
+            <option value="ESTJ">ESTJ</option>
+            <option value="ESFJ">ESFJ</option>
+            <option value="ISTP">ISTP</option>
+            <option value="ESTP">ESTP</option>
+            <option value="ENFP">ENFP</option>
+            <option value="ENTP">ENTP</option>
+            <!-- Add the remaining MBTI types as needed -->
+        </select><br>
+
+        <label for="activity">Enter an activity:</label>
+        <input type="text" id="activity" name="activity" placeholder="e.g., hiking"><br>
+
+        <button type="button" onclick="findMatch()">Find Your Match</button>
+    </form>
+
+    <div class="result" id="result"></div>
+
+    <p>Don't know your MBTI?</p>
+    <a href="https://www.16personalities.com/free-personality-test" class="personality-link">Click here to take the free Myers-Briggs Personality Test!</a>
+    <p>Come back when you find out!</p>
+    
+
+
+    <script>
+    function findMatch() {
+        const mbti = document.getElementById('mbti').value;
+        const activity = document.getElementById('activity').value.toLowerCase();
+
+        // Placeholder logic for finding a match - this should be replaced with your actual logic
+            let matches = [];
+            let activity = false;
+        if (activity === 'hiking') {
+                activity = true;
+                if (mbti === 'INFJ') {
+                    matches = ['ENFJ', 'ISTP'];
+                } else if (mbti === 'ENFJ') {
+                    matches = ['INFJ', 'ENFJ'];
+                } else if (mbti === 'ISTJ') {
+                    matches = ['ESFP', 'ENTP'];
+                } else if (mbti === 'INFP') {
+                    matches = ['INTP', 'ISTP'];
+                } else {
+                    matches = ['ISTJ'];
+                }
+        } else {
+                matches = ['ISFP']; // default match if no specific logic is found
+            }
+        if (activity === 'swimming') {
+            activity = true;
+            if (mbti === 'INFJ') {
+                matches = ['ENFP', 'INTJ'];
+            } else if (mbti === 'ENFJ') {
+                matches = ['INFP', 'ENFJ'];
+            } else if (mbti === 'ISTJ') {
+                matches = ['ESFJ', 'ENTP'];
+            } else if (mbti === 'INFP') {
+                matches = ['INTP', 'ISFP'];
+            } else {
+                matches = ['ISTJ'];
+            }
+        } else if (activity === 'cooking') {
+            activity = true;
+            if (mbti === 'INFJ') {
+                matches = ['ENFJ', 'ISTP'];
+            } else if (mbti === 'ENFJ') {
+                matches = ['INFJ', 'ENFJ'];
+            } else if (mbti === 'ISTJ') {
+                matches = ['ESFP', 'ENTP'];
+            } else if (mbti === 'INFP') {
+                matches = ['INTP', 'ISTP'];
+            } else {
+                matches = ['ENFJ'];
+            }
+        } else if (activity === 'reading') {
+            activity = true;
+            if (mbti === 'INFJ') {
+                matches = ['ENFP', 'INTJ'];
+            } else if (mbti === 'ENFJ') {
+                matches = ['INFP', 'ENFJ'];
+            } else if (mbti === 'ISTJ') {
+                matches = ['ESFJ', 'ENTJ'];
+            } else if (mbti === 'INFP') {
+                matches = ['INTP', 'ISFP'];
+            } else {
+                matches = ['ISTJ'];
+            }
+        } else if (activity === 'gardening') {
+            activity = true;
+            if (mbti === 'INFJ') {
+                matches = ['ENFJ', 'ISTP'];
+            } else if (mbti === 'ENFJ') {
+                matches = ['INFJ', 'ENFJ'];
+            } else if (mbti === 'ISTJ') {
+                matches = ['ESFP', 'ENTP'];
+            } else if (mbti === 'INFP') {
+                matches = ['INTP', 'ISTP'];
+            } else {
+                matches = ['ISTJ'];
+            }
+        } else if (activity === 'traveling') {
+            activity = true;
+            if (mbti === 'INFJ') {
+                matches = ['ENFJ', 'ISTJ'];
+            } else if (mbti === 'ESFJ') {
+                matches = ['INFP', 'ISTP'];
+            } else if (mbti === 'ISTJ') {
+                matches = ['ESFJ', 'ENTJ'];
+            } else if (mbti === 'ENFP') {
+                matches = ['INTP', 'ISFP'];
+            } else {
+                matches = ['ISTJ'];
+            }
+        } else {
+            matches = ['INFJ']; // default match if no specific logic is found
+        }
+        if (activity == false){
+            matches = ['ENFJ'];
+        }
+
+            document.getElementById('result').innerText = `Your match is: ${matches.join(', ')}`;
+        }
+    </script>
+
+</div>
