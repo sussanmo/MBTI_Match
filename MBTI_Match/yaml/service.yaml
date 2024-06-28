@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mbti-match-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: mbti-match
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080

@@ -1,4 +1,5 @@
 ﻿@page
+
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
@@ -17,7 +18,7 @@
         left:0; 
         box-shadow: 0px 4px 2px -2px gray;
         position: absolute;
-       
+        
         font-family: Arial, sans-serif;
        
     }
@@ -41,6 +42,7 @@
         width: 250ppx;
         height: 250px;
         background-color: #f1f1f1;
+        
            
            
         }
@@ -106,10 +108,11 @@
 
 
     </div>
-   
-    <form id="matchForm">
-        <label for="mbti">Select your MBTI:</label>
-        <select id="mbti" name="mbti">
+    
+    <form method="post">
+        <label for="mbti">Select Your MBTI:</label>
+        
+        <select id="personalityType" name="personalityType">
             <option value="INFJ">INFJ</option>
             <option value="INFP">INFP</option>
             <option value="ENFJ">ENFJ</option>
@@ -128,12 +131,17 @@
             <option value="ENTP">ENTP</option>
             <!-- Add the remaining MBTI types as needed -->
         </select><br>
+        
+        <label for="activity">Activity:</label>
+        <input type="text" id="activity" name="activity" value="@Model.Activity" />
+        <br />
+        <input type="hidden" name="clickCount" value="@Model.ClickCount" />
 
-        <label for="activity">Enter an activity:</label>
-        <input type="text" id="activity" name="activity" placeholder="e.g., hiking"><br>
-
-        <button type="button" onclick="findMatch()">Find Your Match</button>
-    </form>
+        <button onclick="showMBTI(event)">Find Your Match</button>
+        
+    
+        </form>
+    
 
     <div class="result" id="result"></div>
 
@@ -144,15 +152,63 @@
 
 
     <script>
-    function findMatch() {
-        const mbti = document.getElementById('mbti').value;
-        const activity = document.getElementById('activity').value.toLowerCase();
 
+    
+    const personalityTypes = ["INTJ", "ENTP", "INFJ", "ENFP", "ISTJ", "ISFJ", "ESTJ", "ESFJ", "ISTP", "ISFP", "ESTP", "ESFP", "INTP", "INFP", "ENTJ", "ENFJ"];
+    
+        function showMBTI(event) {
+            
+            const activity = document.getElementById('activity').value.toLowerCase();
+            const personalityType = document.getElementById('personalityType').value;
+            //event.preventDefault();
+
+
+
+            //logData(mbti, activity);
+
+            if (activity.trim() === "") {
+                alert("Please enter an activity.");
+                return;
+            }
+
+            const selectedTypes = [];
+            while (selectedTypes.length < 2) {
+                const randomType = personalityTypes[Math.floor(Math.random() * personalityTypes.length)];
+                if (!selectedTypes.includes(randomType)) {
+                    selectedTypes.push(randomType);
+                }
+            }
+
+            // Display the results
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerText = `Your ideal match for this activity is: ${selectedTypes.join(', ')}`;
+            
+        }
+    function findMatch(event) {
+           // const personalityType = document.getElementById('mbti').value; //only works when mbti = mbti
+       // event.preventDefault(); // This will prevent the default form submission behavior
+
+       // const activity = document.getElementById('activity').value.toLowerCase();
+
+
+           
+        
+        //logData(mbti, activity);
+
+       
+
+            // Randomly select two different personality types
+       
+
+            
         // Placeholder logic for finding a match - this should be replaced with your actual logic
+            
+
+        /*
             let matches = [];
             let activity = false;
         if (activity === 'hiking') {
-                activity = true;
+                found = true;
                 if (mbti === 'INFJ') {
                     matches = ['ENFJ', 'ISTP'];
                 } else if (mbti === 'ENFJ') {
@@ -168,7 +224,7 @@
                 matches = ['ISFP']; // default match if no specific logic is found
             }
         if (activity === 'swimming') {
-            activity = true;
+            found = true;
             if (mbti === 'INFJ') {
                 matches = ['ENFP', 'INTJ'];
             } else if (mbti === 'ENFJ') {
@@ -181,7 +237,7 @@
                 matches = ['ISTJ'];
             }
         } else if (activity === 'cooking') {
-            activity = true;
+            found = true;
             if (mbti === 'INFJ') {
                 matches = ['ENFJ', 'ISTP'];
             } else if (mbti === 'ENFJ') {
@@ -194,7 +250,7 @@
                 matches = ['ENFJ'];
             }
         } else if (activity === 'reading') {
-            activity = true;
+            found = true;
             if (mbti === 'INFJ') {
                 matches = ['ENFP', 'INTJ'];
             } else if (mbti === 'ENFJ') {
@@ -207,7 +263,7 @@
                 matches = ['ISTJ'];
             }
         } else if (activity === 'gardening') {
-            activity = true;
+            found = true;
             if (mbti === 'INFJ') {
                 matches = ['ENFJ', 'ISTP'];
             } else if (mbti === 'ENFJ') {
@@ -220,7 +276,7 @@
                 matches = ['ISTJ'];
             }
         } else if (activity === 'traveling') {
-            activity = true;
+            found = true;
             if (mbti === 'INFJ') {
                 matches = ['ENFJ', 'ISTJ'];
             } else if (mbti === 'ESFJ') {
@@ -235,12 +291,41 @@
         } else {
             matches = ['INFJ']; // default match if no specific logic is found
         }
-        if (activity == false){
+        if (found == false){
             matches = ['ENFJ'];
         }
-
-            document.getElementById('result').innerText = `Your match is: ${matches.join(', ')}`;
+        */
+            
         }
+        let clickCount = 0;
+        function logData(personalityType, activity) {
+            const data = {
+                clickCount: ++clickCount,
+                personalityType: personalityType,
+                activity: activity
+            };
+
+            console.log("Logging Data:", data);
+
+
+            fetch('/Index?handler=LogData', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            }).then(response => {
+                if (!response.ok) {
+                    console.error("Failed to log data");
+                }
+            }).catch(error => {
+                console.error("Error logging data: ", error);
+            });
+
+        }
+    
+
+    
     </script>
 
 </div>

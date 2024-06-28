@@ -27,6 +27,164 @@
         },
         "Patterns": null
       },
+      "images": {
+        "Children": {
+          "analyst.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/analyst.jpg"
+            },
+            "Patterns": null
+          },
+          "diplomat.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/diplomat.jpg"
+            },
+            "Patterns": null
+          },
+          "explorer.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/explorer.jpg"
+            },
+            "Patterns": null
+          },
+          "mbti1.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/mbti1.png"
+            },
+            "Patterns": null
+          },
+          "mbti10.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/mbti10.png"
+            },
+            "Patterns": null
+          },
+          "mbti11.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/mbti11.png"
+            },
+            "Patterns": null
+          },
+          "mbti12.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/mbti12.png"
+            },
+            "Patterns": null
+          },
+          "mbti13.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/mbti13.png"
+            },
+            "Patterns": null
+          },
+          "mbti14.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/mbti14.png"
+            },
+            "Patterns": null
+          },
+          "mbti15.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/mbti15.png"
+            },
+            "Patterns": null
+          },
+          "mbti2.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/mbti2.png"
+            },
+            "Patterns": null
+          },
+          "mbti3.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/mbti3.png"
+            },
+            "Patterns": null
+          },
+          "mbti4.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/mbti4.png"
+            },
+            "Patterns": null
+          },
+          "mbti5.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/mbti5.png"
+            },
+            "Patterns": null
+          },
+          "mbti6.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/mbti6.png"
+            },
+            "Patterns": null
+          },
+          "mbti7.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/mbti7.png"
+            },
+            "Patterns": null
+          },
+          "mbti8.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/mbti8.png"
+            },
+            "Patterns": null
+          },
+          "mbti9.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/mbti9.png"
+            },
+            "Patterns": null
+          },
+          "sentinel.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/sentinel.jpg"
+            },
+            "Patterns": null
+          }
+        },
+        "Asset": null,
+        "Patterns": null
+      },
       "js": {
         "Children": {
           "site.js": {

@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: mbti-match
+  template:
+    metadata:
+      labels:
+        app: mbti-match
+    spec:
+      containers:
+      - name: mbti-match-container
+        image: mbtiregistry.azurecr.io/mbti-match:v1
+        env: 
+        - name: APPLICATIONINSIGHTS_CONNECTION_STRING
+          value: InstrumentationKey=063a6317-ba7d-44c9-a8d8-4ea607d45301;IngestionEndpoint=https://westus-0.in.applicationinsights.azure.com/;LiveEndpoint=https://westus.livediagnostics.monitor.azure.com/;ApplicationId=c2f5e73f-5b25-4d71-9736-ef308e914569
+        ports:
+        - containerPort: 8080
