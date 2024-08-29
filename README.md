@@ -34,3 +34,54 @@ The **MBTI Activity Matchmaker** is a simple web application built using ASP.NET
    ```bash
    git clone https://github.com/yourusername/mbti-activity-matchmaker.git
    cd mbti-activity-matchmaker
+   
+### ** Build the Application **
+To build the application, run the following command:
+
+dotnet build
+
+### **Run Locally**
+To run the application locally, use the command:
+
+dotnet run
+
+After running the command, open your browser and navigate to http://localhost:5000.
+
+**Dockerization**
+Build Docker Image
+To build the Docker image, execute:
+
+docker build -t mbti-activity-matchmaker .
+
+**Run Docker Container Locally**
+To run the Docker container locally, execute:
+
+docker run -d -p 8080:80 mbti-activity-matchmaker
+
+After running the command, open your browser and navigate to http://localhost:8080.
+
+**Deployment to AKS**
+Push Docker Image to Azure Container Registry (ACR)
+To push the Docker image to Azure Container Registry, run the following commands:
+
+Login to ACR:
+
+az acr login --name <your-acr-name>
+
+Tag the Docker image:
+
+docker tag mbti-activity-matchmaker <your-acr-name>.azurecr.io/mbti-activity-matchmaker:v1
+
+**Push the image to ACR:**
+
+docker push <your-acr-name>.azurecr.io/mbti-activity-matchmaker:v1
+
+**Deploy to AKS**
+Ensure you have a Kubernetes context set up for your AKS cluster. Apply your Kubernetes manifests to deploy the app by running:
+
+kubectl apply -f kubernetes/deployment.yaml
+
+kubectl apply -f kubernetes/service.yaml
+
+Accessing the Application
+Once deployed, you can access the application using the external IP of the AKS service.
